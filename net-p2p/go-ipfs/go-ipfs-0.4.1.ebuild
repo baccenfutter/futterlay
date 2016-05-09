@@ -3,7 +3,7 @@
 # $Id$
 
 EAPI=6
-EGO_PN="github.com/ipfs/go-ipfs"
+EGO_PN="github.com/ipfs/${PN}"
 
 inherit golang-vcs golang-build
 
