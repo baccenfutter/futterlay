@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>baccenfutter@c-base.org</email>
+    <name>Brian Wiborg (baccenfutter)</name>
+  </maintainer>
+  <longdescription lang="en">
+    The InterPlanetary File System (IPFS) is a new hypermedia
+    distribution protocol, addressed by content and identities. IPFS
+    enables the creation of completely distributed applications. It aims
+    to make the web faster, safer, and more open.
+  </longdescription>
+  <use>
+    <flag name="fuse">Pull in FUSE to be able to mount IPFS.</flag>
+  </use>
+</pkgmetadata>
