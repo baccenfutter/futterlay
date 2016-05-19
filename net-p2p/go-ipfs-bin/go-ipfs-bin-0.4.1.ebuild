@@ -19,6 +19,8 @@ IUSE="+fuse"
 RDEPEND="fuse?	( sys-fs/fuse )"
 S="${WORKDIR}/go-ipfs"
 
+QA_PREBUILT="/usr/bin/ipfs"
+
 src_install() {
 	dobin ipfs
 }
