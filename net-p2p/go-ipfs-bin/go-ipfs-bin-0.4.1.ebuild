@@ -14,7 +14,7 @@ SRC_URI="https://dist.ipfs.io/go-ipfs/v${PV}/go-ipfs_v${PV}_linux-amd64.tar.gz
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~x86 ~amd64"
-IUSE="fuse"
+IUSE="+fuse"
 
 RDEPEND="fuse?	( sys-fs/fuse )"
 S="${WORKDIR}/go-ipfs"
